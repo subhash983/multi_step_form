@@ -1,6 +1,6 @@
 export function changeText(event) {
     var type = '';
-    switch (event.target.name) {
+     switch (event.target.name) {
         case 'email':
             type = 'EMAIL_CHANGED';
             break;
